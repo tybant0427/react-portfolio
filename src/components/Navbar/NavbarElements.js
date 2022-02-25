@@ -1,11 +1,12 @@
-import styled from 'styled-components'
-import { Link as LinkRouter } from 'react-router-dom'
-import { Link as LinkScroll } from 'react-scroll'
+import { Link as LinkRouter } from 'react-router-dom';
+import { Link as LinkScroll } from 'react-scroll';
+import styled from 'styled-components';
 
 export const Nav = styled.nav`
-    background: #000;
+    background: black;
     height: 80px;
-   
+    margin-top: -80px
+    display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1rem;
@@ -72,6 +73,15 @@ export const NavItem = styled.li`
     }
 `
 
+export const NavBtn = styled.nav`
+    display: flex;
+    align-items: center;
+
+    @media screen and (max-width: 768px) {
+        display: none;
+    }
+`
+
 export const NavLinks = styled(LinkScroll)`
     color: #fff;
     display: flex;
@@ -83,15 +93,6 @@ export const NavLinks = styled(LinkScroll)`
 
     &.active {
         border-bottom: 3px solid #01bf71;
-    }
-`
-
-export const NavBtn = styled.nav`
-    display: flex;
-    align-items: center;
-
-    @media screen and (max-width: 768px) {
-        display: none;
     }
 `
 
