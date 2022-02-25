@@ -20,7 +20,7 @@ const onHover = () => {
             <HeroH1>Greetings, I'm Tyler.</HeroH1>
             <HeroP>Full Stack Web Dev</HeroP>
             <HeroBtnWrapper>
-                <Button to="email" onMouseEnter={onHover} onMouseLeave={onHover}>
+                <Button to="email" onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'>
                     Connect {hover ? < ArrowForward /> : <ArrowRight />}
                 </Button>
             </HeroBtnWrapper>
