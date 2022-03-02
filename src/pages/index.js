@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import BioSection from '../components/BioSection';
 import HeroSection from '../components/HeroSection';
 import Navbar from '../components/Navbar';
+import Projects from '../components/Projects';
 import Sidebar from '../components/Sidebar';
 import {
   homeObjOne
@@ -19,7 +20,7 @@ function Home() {
     <Navbar toggle={toggle} />
     <HeroSection />
     <BioSection {...homeObjOne} />
-    
+    <Projects />
      </>
   );
 };
