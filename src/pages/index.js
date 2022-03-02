@@ -4,6 +4,8 @@ import HeroSection from '../components/HeroSection';
 import Navbar from '../components/Navbar';
 import Projects from '../components/Projects';
 import Sidebar from '../components/Sidebar';
+import Footer from '../components/Footer';
+
 import {
   homeObjOne
 } from '../components/BioSection/Data';
@@ -21,6 +23,7 @@ function Home() {
     <HeroSection />
     <BioSection {...homeObjOne} />
     <Projects />
+    <Footer />
      </>
   );
 };
