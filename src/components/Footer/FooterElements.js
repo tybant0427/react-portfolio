@@ -41,14 +41,14 @@ export const FooterLinkTitle = styled.h1`
 `;
 
 export const FooterLink = styled(Link)`
-  color: #fff;
+  color: #0687a1;
   text-decoration: none;
   margin-bottom: 0.5rem;
   text-align: center;
   
 
   &:hover {
-    color: #01bf71;
+    color: #fff;
     transition: 0.3s ease-out;
   }
 `;
