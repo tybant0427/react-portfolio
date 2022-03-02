@@ -76,14 +76,18 @@ export const Subtitle = styled.p`
 `;
 
 export const ImgWrap = styled.div`
-  max-width: 555px;
-  height: 100%;
+  max-width: 400px;
+  
+ 
+ 
 `;
 
 export const Img = styled.img`
   width: 100%;
-  margin-top: 0;
+  margin-top: -25px;
   margin-right: 0;
   margin-left: 10px;
   padding-right: 0;
+  border-radius: 20px;
+ 
 `;

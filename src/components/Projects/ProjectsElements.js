@@ -6,7 +6,7 @@ export const ProjectsContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #010606;
+  background: #15171a;
 
   @media screen and (max-width: 768px) {
     height: 1500px;
@@ -37,7 +37,7 @@ export const ProjectsWrapper = styled.div`
 `;
 
 export const ProjectsCard = styled.div`
-  background: #fff;
+  background: #989e9e;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -74,6 +74,7 @@ export const ProjectsH1 = styled.h1`
 export const ProjectsH2 = styled.h2`
   font-size: 1rem;
   margin-bottom: 10px;
+  text-align: center;
 `;
 
 export const ProjectsP = styled.p`
