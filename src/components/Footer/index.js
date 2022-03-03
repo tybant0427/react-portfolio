@@ -3,7 +3,7 @@ import {
   FaGithub,
   FaLinkedin
 } from 'react-icons/fa';
-import { animateScroll as scroll } from 'react-scroll';
+
 import {
   FooterContainer,
   FooterWrap,
@@ -20,11 +20,9 @@ import {
 } from './FooterElements';
 
 const Footer = () => {
-  const toggleHome = () => {
-    scroll.scrollToTop();
-  };
+  
   return (
-    <FooterContainer>
+    <FooterContainer id="contact">
       <FooterWrap>
         <FooterLinksContainer>
             <FooterLinkItems>

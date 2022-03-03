@@ -6,7 +6,7 @@ export const ProjectsContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background:  linear-gradient(to bottom, #6b4769, #0687a1, #6b4769);
+  background:  linear-gradient(to bottom, #6b4769, #d49220, #6b4769);
 
   @media screen and (max-width: 768px) {
     height: 1500px;

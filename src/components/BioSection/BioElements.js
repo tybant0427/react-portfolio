@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const BioContainer = styled.div`
   color: #fff;
-  background: #000000;
+  background: #0d0d0d;
 
   @media screen and (max-width: 768px) {
     padding: 100px 0;

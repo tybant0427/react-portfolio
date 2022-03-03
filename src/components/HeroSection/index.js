@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import Video from '../../videos/video.mp4';
 import { Button } from '../ButtonElements';
 import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroBtnWrapper, ArrowForward, ArrowRight } from './HeroElements';
+import pdf from "../../images/2022resume.pdf"
 
 const HeroSection = () => {
 const [hover, setHover] = useState(false)
@@ -18,10 +19,13 @@ const onHover = () => {
         </HeroBg>
         <HeroContent>
             <HeroH1>Greetings, I'm Tyler.</HeroH1>
-            <HeroP>Full Stack Web Dev</HeroP>
+            <HeroP>Full Stack Developer</HeroP>
             <HeroBtnWrapper>
-                <Button to="email" onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'>
-                    Connect {hover ? < ArrowForward /> : <ArrowRight />}
+            
+                <Button onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'>
+                <a href={pdf} target="_blank">
+                    Resume {hover ? < ArrowForward /> : <ArrowRight />}
+                   </a>
                 </Button>
             </HeroBtnWrapper>
         </HeroContent>
@@ -29,4 +33,4 @@ const onHover = () => {
   )
 }
 
-export default HeroSection
+export default HeroSection;

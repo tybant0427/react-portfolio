@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 export const FooterContainer = styled.footer`
-  background-color: #000;
+  background-color: #0d0d0d;
   color: #fff
 `;
 
@@ -73,6 +73,8 @@ export const SocialIcons = styled.div`
   display: flex;
   transform: scale(2.0);
   align-items: center;
+
+ 
   
 `;
 
@@ -80,4 +82,15 @@ export const SocialIconLink = styled.a`
   color: #fff;
   font-size: 24px;
   padding: 5px;
+  
+
+  &:hover {
+    transform: scale(1.3);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+  }
+
+  
+
+
 `;
