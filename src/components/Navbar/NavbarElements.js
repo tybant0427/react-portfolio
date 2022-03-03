@@ -3,7 +3,8 @@ import { Link as LinkScroll } from 'react-scroll';
 import styled from 'styled-components';
 
 export const Nav = styled.nav`
-background: ${({ scrollNav }) => (scrollNav ? '#0d0d0d' : 'transparent')};
+background: transparent;
+
 height: 80px;
 margin-top: -80px;
 
@@ -39,15 +40,23 @@ export const NavbarContainer = styled.div`
     
 `
 export const NavLogo = styled(LinkRouter)`
-    color: #fff;
+background-color: #142cb6;
+background-image: linear-gradient(to right, #6b4769, #d49220, #6b4769);
+background-size: 100%;
+-webkit-background-clip: text;
+-moz-background-clip: text;
+-webkit-text-fill-color: transparent;
+-moz-text-fill-color: transparent;
+   
     justify-self: flex-start:
     cursor: pointer;
-    font-size: 1.5rem;
+    font-size: 3rem;
     display: flex;
     align-items: center;
     margin-left: 24px;
     font-weight: bold;
     text-decoration: none; 
+    font-family: 'Licorice', cursive;
 `;
 
 export const MobileIcon = styled.div`

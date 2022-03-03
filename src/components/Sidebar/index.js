@@ -20,7 +20,7 @@ const Sidebar = ({ isOpen, toggle }) => {
                 </SidebarLink>
             </SidebarMenu>
             <SideBtnWrap>
-                <SidebarRoute to="/email">Email Me</SidebarRoute>
+                <SidebarRoute onClick={() => window.location = 'mailto:tyler.bantley@icloud.com'}>Email Me</SidebarRoute>
             </SideBtnWrap>
         </SidebarWrapper>
     </SidebarContainer>

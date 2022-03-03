@@ -27,7 +27,7 @@ const Footer = () => {
         <FooterLinksContainer>
             <FooterLinkItems>
               <FooterLinkTitle>Connect with Me</FooterLinkTitle>
-              <FooterLink to='/sign-up'>tyler.bantley@icloud.com</FooterLink>
+              <FooterLink onClick={() => window.location = 'mailto:tyler.bantley@icloud.com'}>tyler.bantley@icloud.com</FooterLink>
             </FooterLinkItems>
         </FooterLinksContainer>
 
@@ -37,10 +37,10 @@ const Footer = () => {
             
             <SocialIcons>
               
-              <SocialIconLink href='/' target='_blank' aria-label='Linkedin'>
+              <SocialIconLink href='https://www.linkedin.com/in/tyler-bantley-314235226/' target='_blank' aria-label='Linkedin'>
                 <FaLinkedin />
               </SocialIconLink>
-              <SocialIconLink href='/' target='_blank' aria-label='Linkedin'>
+              <SocialIconLink href='https://github.com/tybant0427' target='_blank' aria-label='Linkedin'>
                 <FaGithub />
               </SocialIconLink>
               
