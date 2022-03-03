@@ -1,1 +1,0 @@
-{"version":3,"file":"static/css/main.bbdb57fd.css","mappings":"AAAA,EACI,qBAAsB,CAGtB,4CAA+C,CAF/C,QAAS,CACT,SAEJ","sources":["App.css"],"sourcesContent":["* {\n    box-sizing: border-box;\n    margin: 0;\n    padding: 0;\n    font-family:Verdana, Geneva, Tahoma, sans-serif;\n}"],"names":[],"sourceRoot":""}
