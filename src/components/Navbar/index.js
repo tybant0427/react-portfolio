@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import {FaBars} from 'react-icons/fa';
 // import { IconContext } from 'react-icons/lib';
 import { animateScroll as scroll } from 'react-scroll';
-import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavLinks } from './NavbarElements'; 
+import { Nav, NavbarContainer, NavLogo, MobileIcon, NavLinks } from './NavbarElements'; 
 
 
 const Navbar = ({ toggle }) => {
@@ -32,7 +32,7 @@ const Navbar = ({ toggle }) => {
             <MobileIcon onClick={toggle}>
                 <FaBars />
             </MobileIcon>
-            <NavMenu>
+            {/* <NavMenu>
                
                     <NavLinks
                      to='about'
@@ -59,7 +59,7 @@ const Navbar = ({ toggle }) => {
                      offset={-80}>Contact</NavLinks>
                 
             </NavMenu>
-           
+            */}
         </NavbarContainer>
     </Nav>
     {/* </IconContext.Provider> */}

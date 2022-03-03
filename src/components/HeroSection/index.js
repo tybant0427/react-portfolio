@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import Video from '../../videos/video.mp4';
 import { Button } from '../ButtonElements';
-import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroBtnWrapper, ArrowForward, ArrowRight } from './HeroElements';
+import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroBtnWrapper, ArrowForward, ArrowRight, Resume } from './HeroElements';
 
 
 const HeroSection = () => {
@@ -22,13 +22,18 @@ const onHover = () => {
             <HeroH1>Greetings, I'm Tyler.</HeroH1>
             <HeroP>Full Stack Developer</HeroP>
             <HeroBtnWrapper>
+            <a href= 'https://drive.google.com/file/d/1sxMQe6rvv4GySOCX9nTI0G-7Sj011AYF/view?usp=sharing' target='_blank'>
+            <Button
             
-                <Button onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'>
-                
-                    Resume {hover ? < ArrowForward /> : <ArrowRight />}
-                   
-                </Button>
-                
+            primary='true'
+            dark='true'
+            onMouseEnter={onHover}
+            onMouseLeave={onHover}
+          > 
+            Resume {hover ? <ArrowForward /> : <ArrowRight />}
+            
+          </Button>
+          </a>
             </HeroBtnWrapper>
         </HeroContent>
     </HeroContainer>

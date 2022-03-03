@@ -3,7 +3,7 @@ import { Link as LinkScroll } from 'react-scroll';
 import styled from 'styled-components';
 
 export const Nav = styled.nav`
-background: transparent;
+background: ${({ scrollNav }) => (scrollNav ? '#0d0d0d' : 'transparent')};
 
 height: 80px;
 margin-top: -80px;
@@ -60,9 +60,7 @@ background-size: 100%;
 `;
 
 export const MobileIcon = styled.div`
-    display: none;
-
-    @media screen and (max-width: 768px) {
+   {
         display: block;
         position: absolute;
         top: 0;
@@ -74,17 +72,7 @@ export const MobileIcon = styled.div`
     }
 `
 
-export const NavMenu = styled.ul`
-    display: flex;
-    align-items: center;
-    list-style: none;
-    text-align; center;
-    margin-right: -22px;
 
-    @media screen and (max-width: 768px) {
-        display: none;
-    }
-`
 
 
 

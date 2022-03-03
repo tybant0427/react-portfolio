@@ -40,7 +40,7 @@ const Footer = () => {
               <SocialIconLink href='https://www.linkedin.com/in/tyler-bantley-314235226/' target='_blank' aria-label='Linkedin'>
                 <FaLinkedin />
               </SocialIconLink>
-              <SocialIconLink href='https://github.com/tybant0427' target='_blank' aria-label='Linkedin'>
+              <SocialIconLink href='https://github.com/tybant0427' target='_blank' aria-label='Github'>
                 <FaGithub />
               </SocialIconLink>
               

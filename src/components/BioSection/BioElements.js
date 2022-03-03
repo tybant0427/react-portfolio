@@ -51,16 +51,22 @@ export const TextWrapper = styled.div`
   max-width: 540px;
   padding-top: 0;
   padding-bottom: 60px;
+  
+
+  @media screen and (max-width: 480px) {
+    margin-top:20px;
+  }
 `;
 
 
 
 export const Heading = styled.h1`
-  margin-bottom: 24px;
+  margin-bottom: 20px;
   font-size: 48px;
   line-height: 1.1;
   font-weight: 600;
   color: #ffffff;
+  margin-top:-30px;
 
   @media screen and (max-width: 480px) {
     font-size: 32px;
@@ -76,15 +82,16 @@ export const Subtitle = styled.p`
 `;
 
 export const ImgWrap = styled.div`
-  max-width: 400px;
+  max-width: 360px;
   
+
  
  
 `;
 
 export const Img = styled.img`
   width: 100%;
-  margin-top: -25px;
+  margin-top: -80px;
   margin-right: 0;
   margin-left: 10px;
   padding-right: 0;
