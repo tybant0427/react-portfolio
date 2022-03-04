@@ -1,6 +1,5 @@
 import styled from 'styled-components'; 
 
-
 export const Button = styled.div` 
     border-radius: 50px;
     background: #0d0d0d;

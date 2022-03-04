@@ -29,10 +29,8 @@ const BioSection = ({
           <BioRow imgStart={imgStart}>
             <Column1>
               <TextWrapper>
-                
                 <Heading>{headline}</Heading>
                 <Subtitle>{description}</Subtitle>
-                
               </TextWrapper>
             </Column1>
             <Column2>

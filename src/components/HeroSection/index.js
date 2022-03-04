@@ -3,17 +3,13 @@ import Video from '../../videos/video.mp4';
 import { Button } from '../ButtonElements';
 import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroBtnWrapper, ArrowForward, ArrowRight, Resume } from './HeroElements';
 
-
 const HeroSection = () => {
 const [hover, setHover] = useState(false)
 
 const onHover = () => {
     setHover(!hover)
 }
-
-
-
-  return (
+return (
     <HeroContainer>
         <HeroBg>
             <VideoBg autoPlay loop muted src={Video} type='video/mp4'/>
@@ -24,14 +20,12 @@ const onHover = () => {
             <HeroBtnWrapper>
             <a href= 'https://drive.google.com/file/d/1sxMQe6rvv4GySOCX9nTI0G-7Sj011AYF/view?usp=sharing' target='_blank'>
             <Button
-            
             primary='true'
             dark='true'
             onMouseEnter={onHover}
             onMouseLeave={onHover}
-          > 
+            > 
             Resume {hover ? <ArrowForward /> : <ArrowRight />}
-            
           </Button>
           </a>
             </HeroBtnWrapper>

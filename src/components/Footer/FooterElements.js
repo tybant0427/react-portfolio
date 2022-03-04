@@ -15,23 +15,13 @@ export const FooterWrap = styled.div`
 export const FooterLinksContainer = styled.div`
   display: flex;
   justify-content: center;
-
-  
 `;
-
-
 
 export const FooterLinkItems = styled.div`
   display: flex;
   flex-direction: column;
-  
-  
-  
   width: 300px;
   box-sizing: border-box;
-  
-
- 
 `;
 
 export const FooterLinkTitle = styled.h1`
@@ -46,51 +36,30 @@ export const FooterLink = styled(Link)`
   margin-bottom: 0.5rem;
   text-align: center;
   
-
   &:hover {
     color: #fff;
     transition: 0.3s ease-out;
   }
 `;
 
-
-
 export const SocialMediaWrap = styled.div`
-  
-  
-  
-  
   margin: 50px auto 0 auto;
-
-  
 `;
-
-
-
-
 
 export const SocialIcons = styled.div`
   display: flex;
   transform: scale(2.0);
   align-items: center;
-
- 
-  
-`;
+  `;
 
 export const SocialIconLink = styled.a`
   color: #fff;
   font-size: 24px;
   padding: 5px;
   
-
   &:hover {
     transform: scale(1.3);
     transition: all 0.2s ease-in-out;
     cursor: pointer;
   }
-
-  
-
-
 `;

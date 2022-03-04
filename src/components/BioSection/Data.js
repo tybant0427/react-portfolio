@@ -6,7 +6,4 @@ export const homeObjOne = {
     imgStart: false,
     img: require('../../images/tyler1235.png'),
     alt: 'picture of tyler',
-    
-    
-    
   };

@@ -52,13 +52,10 @@ export const TextWrapper = styled.div`
   padding-top: 0;
   padding-bottom: 60px;
   
-
   @media screen and (max-width: 480px) {
     margin-top:20px;
   }
 `;
-
-
 
 export const Heading = styled.h1`
   margin-bottom: 20px;
@@ -92,7 +89,4 @@ export const Img = styled.img`
   margin-left: 10px;
   padding-right: 0;
   border-radius: 10px;
-
-
- 
 `;

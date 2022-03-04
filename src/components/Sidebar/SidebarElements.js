@@ -3,7 +3,6 @@ import {Link as LinkScroll} from 'react-scroll';
 import {Link as LinkRouter} from 'react-router-dom';
 import {FaTimes} from 'react-icons/fa' 
 
-
 export const SidebarContainer = styled.aside`
     position: fixed;
     z-index: 999;
@@ -17,7 +16,6 @@ export const SidebarContainer = styled.aside`
     transition: 0.3s ease-in-out;
     opacity: ${({ isOpen }) => (isOpen ? '100%' : '0')};
     top: ${({ isOpen }) => (isOpen ? '0' : '-100%')}; 
-    
     `;
 
 export const CloseIcon = styled(FaTimes)`
