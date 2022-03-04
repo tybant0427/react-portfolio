@@ -5,7 +5,7 @@ export const BioContainer = styled.div`
   background: #0d0d0d;
 
   @media screen and (max-width: 768px) {
-    padding: 100px 0;
+    padding: 200px 0;
   }
 `;
 
@@ -69,7 +69,7 @@ export const Heading = styled.h1`
   margin-top:-30px;
 
   @media screen and (max-width: 480px) {
-    font-size: 32px;
+    margin-top: -150px;
   }
 `;
 
@@ -91,6 +91,8 @@ export const Img = styled.img`
   margin-right: 0;
   margin-left: 10px;
   padding-right: 0;
-  border-radius: 20px;
+  border-radius: 10px;
+
+
  
 `;

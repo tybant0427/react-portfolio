@@ -12,7 +12,7 @@ export const ProjectsContainer = styled.div`
     height: 1500px;
   }
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 300px) {
     height: 1300px;
   }
 `;
