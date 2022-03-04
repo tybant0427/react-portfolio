@@ -17,5 +17,7 @@ Welcome to my react portfolio! Here you can see an about section, a project sect
 * JavaScript 
 
 ## Links 
+
  https://github.com/tybant0427/react-portfolio - Github Repo
+ 
  https://tybant0427.github.io/react-portfolio/ - Deployed portfolio
