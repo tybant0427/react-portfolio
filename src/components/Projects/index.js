@@ -28,7 +28,7 @@ const Projects = () => {
                 </ProjectsP>
             </ProjectsCard>
             <ProjectsCard>
-            <ProjectsH2>Employee Scheduler</ProjectsH2>
+            <ProjectsH2>Employee Scheduler</ProjectsH2>     
                 <ProjectsIcon src={Icon2}/>
                 <ProjectsP>
                     <a href="https://shrouded-anchorage-20681.herokuapp.com/" target='_blank'>Deployed App</a> <br/>
