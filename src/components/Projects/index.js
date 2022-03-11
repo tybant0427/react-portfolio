@@ -23,7 +23,7 @@ const Projects = () => {
             <ProjectsH2>Chord-Base</ProjectsH2>
                 <ProjectsIcon src={Icon1}/>
                 <ProjectsP>
-                    <a href="https://amber-robeck.github.io/project1/index.html" target='_blank'>Deployed App</a> <br/> 
+                    <a href="https://amber-robeck.github.io/Chord-Base/" target='_blank'>Deployed App</a> <br/> 
                     <a href="https://github.com/tybant0427/project1" target='_blank'>Github Repo</a> 
                 </ProjectsP>
             </ProjectsCard>
