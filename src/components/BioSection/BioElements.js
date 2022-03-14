@@ -5,16 +5,16 @@ export const BioContainer = styled.div`
   background: #0d0d0d;
 
   @media screen and (max-width: 768px) {
-    padding: 200px 0;
+    padding: 300px 0;
   }
 `;
 
 export const BioWrapper = styled.div`
   display: grid;
   z-index: 1;
-  height: 860px;
+  height: 100vh;
   width: 100%;
-  max-width: 1100px;
+  max-width: 100%;
   margin-right: auto;
   margin-left: auto;
   padding: 0 24px;

@@ -1,7 +1,7 @@
 import React from 'react'
 import Icon1 from '../../images/4822857.png';
 import Icon2 from '../../images/Schedule.png';
-import Icon3 from '../../images/1182954.png';
+import Icon3 from '../../images/blog-icon.png';
 import Icon4 from '../../images/770b805d5c99c7931366c2e84e88f251.png';
 
 import {

@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const ProjectsContainer = styled.div`
-  height: 800px;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -12,9 +12,6 @@ export const ProjectsContainer = styled.div`
     height: 1500px;
   }
 
-  @media screen and (max-width: 300px) {
-    height: 1300px;
-  }
 `;
 
 export const ProjectsWrapper = styled.div`
