@@ -18,7 +18,7 @@ return (
             <HeroH1>Greetings, I'm Tyler.</HeroH1>
             <HeroP>Full Stack Developer</HeroP>
             <HeroBtnWrapper>
-            <a href= 'https://drive.google.com/file/d/10VeCujBg4fsOoWo_IdpEp4j2c65AhCsK/view?usp=sharing' target='_blank'>
+            <a href= 'https://docs.google.com/document/d/1cnPUc-Onq7WQ4fzvuwO2fSWqQw1c-2Ah6YtOiWZz-Gw/edit' target='_blank'>
             <Button
             primary='true'
             dark='true'
